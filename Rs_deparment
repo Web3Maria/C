@@ -12,4 +12,4 @@ fn main() {
     let total: i32 = numbers.iter().sum();
     
     println!("The total of the list is: {}", total);
-}
+} }
