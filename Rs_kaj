@@ -28,4 +28,4 @@ class Person
 end
 
 person = Person.new("Ruby", 30)
-puts person.greet
+puts person.greett
