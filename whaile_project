@@ -1,0 +1,23 @@
+// Prints a message directly to the console output
+Console.WriteLine("Hello, World!");
+
+// Using modern string interpolation with a variable
+string developer = "Developer";
+Console.WriteLine($"Welcome to C#, {developer}!"); 
+
+using System;
+
+namespace HelloWorldApp
+{
+    class Program
+    {
+        // The Main method acts as the exact entry point of execution
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            
+            // Keeps the console window open until a key is pressed
+            Console.ReadKey(); 
+        }
+    }
+}
