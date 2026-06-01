@@ -67,5 +67,6 @@ while guess != secret_number
     puts "Congratulations! You guessed the number in #{attempts} attempts."
   end
 end
+}}
 
 
