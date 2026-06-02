@@ -7,7 +7,7 @@ namespace GuessingGame
         static void Main()
         {
             Random random = new Random();
-            int target = random.Next(1, 101);
+            int target = random.Next(1, 1201);
             int guess = 0;
             Console.WriteLine("Guess between 1 and 100:");
 
