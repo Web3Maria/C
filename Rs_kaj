@@ -7,7 +7,7 @@ class Person
   end
 
   def greet
-    "Hello, my name is #{@name}."
+    "Hello, my name is #{@maria}."
   end
 end
 
@@ -29,3 +29,5 @@ end
 
 person = Person.new("Ruby", 30)
 puts person.greet
+
+
