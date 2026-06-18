@@ -30,4 +30,5 @@ end
 person = Person.new("Ruby", 30)
 puts person.greet
 
+/lost
 
